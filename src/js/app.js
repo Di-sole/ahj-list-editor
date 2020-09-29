@@ -42,6 +42,7 @@ list.addEventListener('click', (e) => {
 
 saveBtn.addEventListener('click', (e) => {
   e.preventDefault();
+  modal.hideError();
 
   if (formEl.checkValidity()) {
     const name = formEl.elements.name.value;
