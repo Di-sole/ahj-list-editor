@@ -1,0 +1,33 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "jest": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "rules": {
+        //поддерживает ++
+        "no-plusplus": "off",
+   
+        //не ругается если есть вывод в консоль
+        "no-console": "off",
+   
+        "no-restricted-syntax": [
+            "error",
+            "LabeledStatement",
+            "WithStatement"
+        ],
+   
+        //максимальная длина строки кода 200 символов, можно менять
+        "max-len": [
+            "error",
+            { "code": 200 }
+        ]
+     }
+}
