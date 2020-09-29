@@ -1,2 +1,2 @@
-# ahj-list-editor [GitHub Pages](https://di-sole.github.io/ahj-popovers/)
+# ahj-list-editor [![Build status](https://ci.appveyor.com/api/projects/status/72ku6l0wd6kynrgr?svg=true)](https://ci.appveyor.com/project/Di-sole/ahj-list-editor)
 [GitHub Pages](https://di-sole.github.io/ahj-list-editor/)
