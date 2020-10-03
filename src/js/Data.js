@@ -19,7 +19,7 @@ export default class Data {
   addProduct(newName, newCost) {
     const newProduct = {
       name: newName,
-      cost: newCost,
+      cost: Number(newCost),
     };
 
     this.products.push(newProduct);

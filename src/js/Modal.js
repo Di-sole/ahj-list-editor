@@ -27,6 +27,10 @@ export default class Modal {
       this.errorMessage = 'Стоимость должна быть больше 0';
     }
 
+    if (input.validity.badInput) {
+      this.errorMessage = 'Стоимость должна быть числом';
+    }
+
     const errorEl = document.createElement('p');
     errorEl.className = 'error-message';
     errorEl.textContent = this.errorMessage;
